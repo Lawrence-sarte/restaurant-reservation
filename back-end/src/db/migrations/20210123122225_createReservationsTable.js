@@ -9,8 +9,6 @@ exports.up = function (knex) {
     table.time("reservation_time");
     table.integer("people");
     table.string("status").defaultTo("booked");
-
-
   });
 };
 
